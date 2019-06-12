@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.OTPActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_otp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/splashnamelogo"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etOTP"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="OTP"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/ic_otp"
+                android:background="@drawable/squ_edittext"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="100dp"
+                android:paddingLeft="10dp"
+                android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/btnResendOTP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="57dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:text="Resend OTP Code"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlue"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnSubmitOTP"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/colorBtnBg"
+                android:fontFamily="sans-serif-medium"
+                android:text="submit"
+                android:textColor="@color/colorWhite"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

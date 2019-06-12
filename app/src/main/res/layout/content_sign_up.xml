@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.SignUpActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_sign_up">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Register"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etfnameReg"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/fname"
+                android:drawablePadding="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:hint="First name"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etLnameReg"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/fname"
+                android:drawablePadding="20dp"
+                android:hint="Last Name"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etPhonenoReg"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/mno"
+                android:drawablePadding="20dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:editable="false"
+                android:enabled="false"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etEmailReg"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="20dp"
+                android:hint="Email"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="25dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etPasswordReg"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/security"
+                android:drawablePadding="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorBtnBg"
+                android:textAllCaps="false"
+                android:text="Register"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btnAlreadyLogin"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:text="Already have an Account ? Login !"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

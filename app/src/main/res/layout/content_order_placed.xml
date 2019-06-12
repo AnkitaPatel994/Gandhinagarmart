@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.OrderPlacedActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_order_placed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/orderplaced_img"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/checked" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/order_status" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Order Placed Sucessfully"
+                android:textColor="#f24f99"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank You For Your Order"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="#4b2fb7"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                android:text="We're getting your order ready to be shipped. We will notify you when it has been sent." />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#bfb4b4"
+                android:layout_marginTop="24dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnCancelOrder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Cancel Order"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorRed"/>
+
+                <Button
+                    android:id="@+id/btnConShopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Continues Shopping"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:background="@color/colorTeal"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

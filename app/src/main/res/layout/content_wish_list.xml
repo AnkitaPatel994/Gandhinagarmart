@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.WishListActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_wish_list">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvProductWishlist"
+        android:background="#E2E0DF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/llWishlistEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/wishlist"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Items In WhishList"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="@color/colorTeal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="Explore More and Shortlist Some Items"
+            android:textColor="@color/colorTeal"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnEmptyWhishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" CONTINUE SHOPPING "
+            android:textSize="12sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#F86E6E"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

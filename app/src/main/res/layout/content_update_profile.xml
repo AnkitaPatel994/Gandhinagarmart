@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.UpdateProfileActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_update_profile">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    app:srcCompat="@drawable/bg_grid" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-70dp"
+                    app:srcCompat="@drawable/user" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="50dp"
+                android:text="First Name"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter FirstName"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/lname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Last Name"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName"
+                android:hint="Enter LastName" />
+
+            <TextView
+                android:id="@+id/mn_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Mobile Number"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="number"
+                android:hint="Enter Mobile Number" />
+
+            <TextView
+                android:id="@+id/email_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Email id"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="textEmailAddress"
+                android:hint="Enter Email" />
+
+            <TextView
+                android:id="@+id/address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Address"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="textMultiLine"
+                android:hint="Enter Address" />
+
+            <TextView
+                android:id="@+id/city_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="City"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="text"
+                android:hint="Enter City" />
+
+            <TextView
+                android:id="@+id/state_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="State"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="text"
+                android:hint="Enter State" />
+
+            <TextView
+                android:id="@+id/country_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Country"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="text"
+                android:hint="Enter Country" />
+
+            <TextView
+                android:id="@+id/pincode_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="Pincode"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:inputType="number"
+                android:hint="Enter Pincode" />
+
+            <Button
+                android:id="@+id/btnEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="@color/colorTeal"
+                android:text="save"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:layout_marginBottom="16dp"
+                tools:layout_editor_absoluteX="117dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

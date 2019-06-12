@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFCFB</color>
+    <color name="colorPrimaryDark">#C4C2C1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGrey">#C4C2C1</color>
+    <color name="colorGreyDark">#9E9B99</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#da3a2f</color>
+    <color name="colorGreen">#16b121</color>
+    <color name="colorBlue">#445789</color>
+    <color name="colorOrange">#ff9900</color>
+    <color name="colorGoogleBtn">#DC4B39</color>
+    <color name="colorFacebookBtn">#4DB6E6</color>
+    <color name="colorBtnBg">#EB0B3E</color>
+    <color name="colorProductOffer">#159615</color>
+    <color name="colorProductRating">#008000</color>
+    <color name="colorDivider">#CACACA</color>
+    <color name="colorSizeChart">#a96fc2</color>
+    <color name="colorSize">#f72121</color>
+    <color name="colorBtnCheck">#d4d0d0</color>
+    <color name="colorBtnCart">#57a2ed</color>
+    <color name="colorBtnBuy">#FF4081</color>
+    <color name="colortxt">#DADADA</color>
+    <color name="colorTeal">#008080</color>
+    <color name="colorPEACH">#fbd0d3</color>
+    <color name="colorllBg">#d2e6f9</color>
+</resources>

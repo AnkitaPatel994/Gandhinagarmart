@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.ResetActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_reset">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/splashnamelogo"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtResetNewPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/new_password"
+                android:drawablePadding="20dp"
+                android:hint="New Password"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtResetConformPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/squ_edittext"
+                android:drawableLeft="@drawable/conform_password"
+                android:drawablePadding="20dp"
+                android:hint="Conform Password"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnRePswLink"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/colorBtnBg"
+                android:fontFamily="sans-serif-medium"
+                android:text="continue"
+                android:textColor="@color/colorWhite"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

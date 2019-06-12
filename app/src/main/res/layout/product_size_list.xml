@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_box"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/llSizeList"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtPSizeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:text="Size" />
+
+    <TextView
+        android:id="@+id/txtPSizePrize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorBlack"
+        android:text="Rs. 202" />
+
+    <TextView
+        android:id="@+id/txtPSizeQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorProductRating"
+        android:text="Only 3 left in stock." />
+
+</LinearLayout>

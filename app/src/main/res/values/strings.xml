@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Gandhinagar Mart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cart">My Cart</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_order">My Order</string>
+    <string name="title_activity_sign_up">Register</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_update_profile">Edit Profile</string>
+    <string name="title_activity_change_password">Change Password</string>
+
+    <!--==== Home Page ===-->
+    <string name="shop_by_category">Shop by Category</string>
+    <string name="view_all">View All</string>
+    <string name="top_seller">Top Seller</string>
+    <string name="featured_brand">Featured Brand</string>
+    <string name="login">Login / Register</string>
+
+    <!--==== SignUp ===-->
+    <string name="firstname">Enter First Name</string>
+    <string name="lname">Enter Last Name</string>
+    <string name="Email">Enter Email</string>
+    <string name="Password">Enter Password For Ex Xyz@123</string>
+    <string name="mobileNo">Enter Mobile Number</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <!--==== SignUp ===-->
+
+    <!--==== SignUp ===-->
+    <string name="Name">Enter Name</string>
+    <string name="Address">Enter Address</string>
+    <string name="City">Enter City</string>
+    <string name="Pincode">Enter Pincode</string>
+    <string name="MobileNo">Enter Mobile Number</string>
+    <string name="old_password">Enter Old Password For Ex Xyz@123</string>
+    <string name="new_password">Enter New Password For Ex Xyz@123</string>
+    <!--==== SignUp ===-->
+
+    <!--==== SignIn ===-->
+    <string name="uname">Enter UserName</string>
+    <string name="Psw">Enter Password</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_otp">Verification</string>
+    <string name="title_activity_reset">Reset Password</string>
+    <!--==== SignIn ===-->
+
+    <string name="RS">₹</string>
+    <string name="title_activity_product_details">ProductDetailsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_category_list">CategoryListActivity</string>
+    <string name="title_activity_brand_list">BrandListActivity</string>
+    <string name="title_activity_sub_category">SubCategoryActivity</string>
+    <string name="title_activity_filter">Filters</string>
+    <string name="title_activity_add_address">Add Address</string>
+    <string name="title_activity_add_shipping_address">AddShippingAddress</string>
+    <string name="title_activity_delivery">Delivery</string>
+    <string name="title_activity_order_placed">Order Placed</string>
+    <string name="title_activity_order_shipped">Order Shipped</string>
+    <string name="title_activity_order_delivered">Order Delivered</string>
+    <string name="title_activity_search">Search</string>
+
+    <string name="reload"><u>Reload page</u></string>
+    <string name="title_activity_mobile_otp">MobileOTPActivity</string>
+    <string name="title_activity_email_otp">EmailOTPActivity</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+
+    <string name="address">A-117 to 124, First Floor, Swagat Rainforest II, Opp.Swaminarayan Dham, Gandhinagar, Gujarat 382421</string>
+    <string name="telephone">Telephone: 080002 47321</string>
+    <string name="website">Website: www.gandhinagarmart.com</string>
+    <string name="email">Email: info@gandhinagarmart.com</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="aboutus">Welcome to DEV KIDS WONDER! Our mission is to ensure that new and expectant parents have everything they need to confidently welcome their baby and navigate the transitions of life as a family.\n\nIn the journey of parenthood there are fun parts and messy parts, celebrations and challenges, dreamy snuggles and sleepless nights. We’re thrilled to be here for you every step of the way, with helpful guidance and an amazing selection of everything from the best of the best baby gear along with everybody’s favourites – all at everyday low prices.\n\nVisit our store, where you can explore hundreds of products first-hand, and let our expert associates help you prepare for pregnancy, parenthood, toddler transitions, and everything in between.</string>
+    <string name="title_activity_terms">Terms and Condition</string>
+
+</resources>
